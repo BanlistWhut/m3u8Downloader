@@ -36,3 +36,5 @@ downloader.download({
     filePath: 'video'
     // fileName:'test'
 });
+// https://www.hkg.haokan333.com/201901/07/beZYX9Rh/800kb/hls/index.m3u8
+
