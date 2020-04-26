@@ -15,6 +15,8 @@
 
 > **Tip:** 在运行时，需要提前安装好***FFMPEG**环境，并设置好环境变量。
 
+> **Warm:** 在通过Node运行时需要在node后面添加--experimental-worker参数才可以正常运行，否则回报Cannot find module 'worker_threads'错误。例如: node --experimental-worker index.js
+
 ## How to use
 ```
 const downloader = require('m3u8-multi-thread-downloader');
